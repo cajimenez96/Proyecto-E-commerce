@@ -18,6 +18,15 @@
   position: fixed;
   right: 44.60%;
 }
+@media (min-width: 414px) and (max-width: 736px){
+  .logo-nav{
+    position: fixed;
+    right: 32%;
+  }
+  .formulario{
+    display: none;
+  }
+}
 .menu{
   /* margin: -50px !important; */
   margin-top: 8px !important;
@@ -57,7 +66,6 @@
   transition: all 500ms ease; 
   opacity: 1;
   color: rgb(82, 77, 77);
-
 }
 /*Main*/
 .tittle{
@@ -73,7 +81,6 @@
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.521);
   border-radius: 10px;
 }
-
 @media (min-width: 992px){
   .col-lg-2{
       flex: 0 0 auto;
@@ -93,8 +100,7 @@
   }
   .logo3{
     position: relative;
-    left: 60px;
-    
+    left: 60px;    
   }
 }
 .card-img-info{
@@ -152,5 +158,16 @@ hr{
 }
 ol{
   padding: 0;
+}
+ul{
+  padding: 0;
+}
+@media (min-width: 414px) and (max-width: 736px){
+  .info-foot{
+    font-size: 0.8rem;
+  }
+  .nav-footer{
+    font-size: 0.8rem;
+  }
 }
 
