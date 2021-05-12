@@ -27,6 +27,12 @@
     display: none;
   }
 }
+@media (min-width: 768px) and (max-width: 1024px){
+  .logo-nav{
+    position: fixed;
+    right: 40.1%;
+  }
+}
 .menu{
   /* margin: -50px !important; */
   margin-top: 8px !important;
