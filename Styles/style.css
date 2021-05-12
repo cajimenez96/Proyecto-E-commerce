@@ -16,7 +16,7 @@
 }
 .logo-nav{
   position: fixed;
-  right: 44.80%;
+  right: 44.8%;
 }
 @media (min-width: 414px) and (max-width: 736px){
   .logo-nav{
