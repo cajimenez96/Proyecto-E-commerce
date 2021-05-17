@@ -19,7 +19,6 @@
   right: 44.60%;
 }
 .menu{
-  /* margin: -50px !important; */
   margin-top: 8px !important;
   height: 100vh;
   width: 250px;
@@ -60,6 +59,87 @@
 
 }
 /*Main*/
+/* Menu Principal*/
+
+.text-menu{
+  color: white;
+  text-shadow: 3px 3px rgb(0, 0, 0);
+  font-size: 35px;
+}
+.menu-hombre{
+  background-image: url('../images/menu-hombre.jpg');
+  align-items: flex-end;
+  margin: 20px;
+  height: 500px;
+  cursor: pointer;
+}
+.menu-hombre:hover .info-menu{
+  height: 100%;
+  width: 100%;
+  transition: all 500ms ease-in;  
+  visibility: visible;
+  opacity: 1;
+  background-color: rgba(66, 64, 64, 0.26);
+}
+.menu-top{
+  height: 500px;
+  margin: 20px;
+}
+.menu-mujer{
+  background-image: url('../images/menu-mujer.jpg'); 
+  height: 240px; 
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.menu-mujer:hover .info-menu{
+  height: 100%;
+  width: 100%;
+  transition: all 500ms ease-in;  
+  visibility: visible;
+  opacity: 1;
+  background-color: rgba(66, 64, 64, 0.26);
+}
+.menu-bottom{
+  height: 250px;
+}
+.menu-nino{
+  background-image: url('../images/menu-nino.jpg'); 
+  width: 100%; 
+  margin-inline-end: 10px;
+  cursor: pointer;
+}
+.menu-nino:hover .info-menu{
+  height: 100%;
+  width: 100%;
+  transition: all 500ms ease-in;  
+  visibility: visible;
+  opacity: 1;
+  background-color: rgba(66, 64, 64, 0.26);
+}
+.menu-nina{
+  background-image: url('../images/menu-nina.jpg');
+  width: 100%;
+  cursor: pointer;
+}
+.menu-nina:hover .info-menu{
+  height: 100%;
+  width: 100%;
+  transition: all 500ms ease-in;  
+  visibility: visible;
+  opacity: 1;
+  background-color: rgba(66, 64, 64, 0.26);
+}
+.info-menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  transition: all 500ms ease-in;  
+  visibility: hidden;
+  opacity: 0;
+}
 .tittle{
   padding-top: 5rem;
 }
